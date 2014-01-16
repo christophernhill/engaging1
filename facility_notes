@@ -124,4 +124,7 @@ Jan 15, 2014
 (20) we are experimenting with so-called reservations
      in SLURM to allow secific sets of users to be given
      exclusive access to some nodes for a particular
-     time window. 
+     time window. As an example a Northeastern group
+     recently reserved 128 nodes for a 12 hour period
+     to do some intensive computer science benchmarking
+     for the DMTCP checkpointing tool. 
