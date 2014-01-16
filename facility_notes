@@ -3,7 +3,9 @@ engaging1 cluster README
 Jan 15, 2014
 
 ( 1) Its called engaging1 (eo for short) because one of the goals is to develop
-     more interactive and dynamic approaches to computational science.s
+     more interactive and dynamic approaches to computational sciences. This
+     is a concept some of us refer to as "engaging supercomputing" and/or
+     computational science 2.0. 
 
 ( 2) engaging1 consists of several head nodes, 234 compute nodes and a 350TB
      central Lustre storage system. A total of 198 compute nodes are
