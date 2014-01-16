@@ -1,0 +1,96 @@
+engaging1 cluster README
+
+Jan 15, 2014
+
+( 1) Its called engaging1 (eo for short) because one of the goals is to develop
+     more interactive and dynamic approaches to computational science.s
+
+( 2) engaging1 consists of several head nodes, 234 compute nodes and a 350TB
+     central Lustre storage system. A total of 198 compute nodes are
+     funded through a shared NSF grant. A further 36 nodes were funded
+     separately. There are 16 nodes with Xeon Phi co-processors and
+     90 nodes with NVidia K20m coprocessor cards. All compute nodes
+     have two 16 core, 2GHz Intel Xeon E2650 processors, 64GB of
+     memory and 3.5TB of locat disk. 
+
+( 3) the computers and storage components are connected by an Infiniband
+     network.
+
+( 4) basic system adninistration is provided by a contract company funded
+     from base project funds that works on a time and materials basis.
+
+( 5) the funds for system administration are limited, but can be
+     supplemented with other per project funds to meet custom needs.
+
+( 6) the email address engaging-admin@techsquare.com can be used to
+     make requests for support and systems work.
+
+( 7) the project PIs are Chris Hill (MIT), Claudio Rebbi (BU),
+     Gene Cooperman (Northeastern), Prshant Shenoy (UMass).
+
+( 8) the system is still in an early user phase so documentation
+     is sketchy, configuration details are evolving, there are
+     no backup procedures in place and many convenience features
+     are missing (web site, easy visibility into whats happening, etc..).
+     Thursdays have been set aside as "street cleaning" days 
+     for the time being. This means that disruptive systems
+     admin work may be scheduled on Thursdays as needed. 
+
+( 9) access is currently through ssh using public keys.
+
+(10) to get an account send an email with a public key to
+     engaging-admin@techsquare.com and some explanation of
+     how you are connected to the project (talk to one of the
+     PIs if you are not sure). 
+     
+(11) the system is running RHEL Linux, uses SLURM as a scheduler
+     to allocate resources and has some useful software
+     available through the environment modules system. 
+     
+(12) several important things are TBD on the system
+     o there are no quotas for compute job duration or
+       file space use, we are realying on people being
+       socially responsible at this stage.
+     o we plan to upgrade SLURM from 2.5 to 2.6 fairly
+       soon.
+     o we plan to upgrade the Lustre file system from
+       1.8 to 2.4 fairly soon.
+     o we plan to switch the RHEL compute nodes to 
+       CentOS.
+       
+(13) there is some software on the system. Check out the
+     contents of the /cm/shared directory and the 
+     output from the "module avail" command.
+     The current software is fairly minimal. More
+     software can be requested by emailing
+     engaging-admin@techsqaure.com. Software
+     from this list http://rc.fas.harvard.edu/module_list/
+     is relatively easy to add, we mirror this from 
+     Harvard University MGHPCC colleagues. 
+     Requests for software not on this list take more 
+     effort and will eat into the project system 
+     administration budget.
+     
+(14) you can learn about SLURM at various web sites
+     including
+     http://www.ceci-hpc.be/slurm_tutorial.html, 
+     http://www.umbc.edu/hpcf/resources-tara/how-to-run.html
+     and http://slurm.schedmd.com/tutorials.html
+       
+(15) user accounts are associated with SLURM partitions
+     that provides a way to steer jobs to certain sets
+     of machines. Currently partitions are defined for 
+     different PI groups, but all the partitions contain
+     the same sets of computers. We are exploring the
+     use of partitions and SLURM reservations as 
+     tools for automaing dynamically managing varying 
+     needs from different project participants.
+     
+(16) the GNU compilers are installed on the system.
+     We are waiting for some paperwork to be processed
+     for purchasing two floating licenses for the Intel
+     Compiler and Cluster Studio (XE) software. 
+     
+(17) 
+     
+     
