@@ -47,8 +47,8 @@ Jan 15, 2014
 
 (10) to get an account send an email with a public key to
      engaging-admin@techsquare.com and some explanation of
-     how you are connected to the project (talk to one of the
-     PIs if you are not sure). 
+     how you are connected to the project. Talk to one of the
+     PIs if you are not sure about your connection.
      
 (11) the system is running RHEL Linux, uses SLURM as a scheduler
      to allocate resources and has some useful software
@@ -105,6 +105,23 @@ Jan 15, 2014
 (18) the /home/ directory is meant for storing things like
      program and script source files. It is currently
      shared over an Ethernet network in a sub-optimal
-     arrangment. 
+     arrangment. We are experimenting with moving this
+     space to an Infiniband based network. 
      
+(19) some early projects have been given dedicated access
+     to compute nodes through January. There are about 55
+     nodes allocated this way. The projects involved are
+     doing work on technologies and tools that could
+     be helpful to the rest of the system. One project
+     is developing advanced database technologies that
+     has direct connections to big-data/bioinformatics
+     interests. A second project is exploring ways to
+     deploy Openstack software on subsets of nodes on
+     request. This project is one route by which 
+     the system will allow a more flexibile application
+     mix than traditional HPC facilities.
      
+(20) we are experimenting with so-called reservations
+     in SLURM to allow secific sets of users to be given
+     exclusive access to some nodes for a particular
+     time window. 
