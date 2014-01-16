@@ -12,7 +12,7 @@ Jan 15, 2014
      funded through a shared NSF grant. A further 36 nodes were funded
      separately. There are 16 nodes with Xeon Phi co-processors and
      90 nodes with NVidia K20m coprocessor cards. All compute nodes
-     have two 16 core, 2GHz Intel Xeon E2650 processors, 64GB of
+     have two 8 core, 2GHz Intel Xeon E2650 processors, 64GB of
      memory and 3.5TB of locat disk. 
 
 ( 3) the computers and storage components are connected by an Infiniband
