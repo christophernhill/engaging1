@@ -36,7 +36,14 @@ Jan 15, 2014
      for the time being. This means that disruptive systems
      admin work may be scheduled on Thursdays as needed. 
 
-( 9) access is currently through ssh using public keys.
+( 9) access is currently through ssh using public keys. There
+     are three login nodes eof4.mit.edu, eofe5.mit.edu and
+     eof6.mit.edu. At present eofe4 has some weird network
+     behavior, eofe5 is healthy, eofe6 is sometimes used for
+     experimenting with upgrades or alternate configurations. 
+     Ultimately all 3 will provide load balanced access 
+     integrated into university environments, but for 
+     now eofe5.mit.edu is the standard login node. 
 
 (10) to get an account send an email with a public key to
      engaging-admin@techsquare.com and some explanation of
@@ -91,6 +98,13 @@ Jan 15, 2014
      for purchasing two floating licenses for the Intel
      Compiler and Cluster Studio (XE) software. 
      
-(17) 
+(17) the /nobackup1/ directory is a Lustre filesystem.
+     It should be used for I/O for parallel jobs, large
+     I/O workloads etc..
+     
+(18) the /home/ directory is meant for storing things like
+     program and script source files. It is currently
+     shared over an Ethernet network in a sub-optimal
+     arrangment. 
      
      
