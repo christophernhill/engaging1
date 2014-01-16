@@ -56,8 +56,13 @@ Jan 15, 2014
      
 (12) several important things are TBD on the system
      o there are no quotas for compute job duration or
-       file space use, we are realying on people being
+       file space use, we are relying on people being
        socially responsible at this stage.
+     o there are no time limits on jobs the scheduler
+       launches. This is nice, but impractical and 
+       we will have to change this. Meantime we are again
+       relying on users to act reasonably and not
+       overly monopolize resources.
      o we plan to upgrade SLURM from 2.5 to 2.6 fairly
        soon.
      o we plan to upgrade the Lustre file system from
