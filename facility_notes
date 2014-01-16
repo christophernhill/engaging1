@@ -133,3 +133,21 @@ Jan 15, 2014
      recently reserved 128 nodes for a 12 hour period
      to do some intensive computer science benchmarking
      for the DMTCP checkpointing tool. 
+
+(21) we have recently configured one node to support
+     a virtual machine tool called Vagrant. This
+     provides a way to launch a virtual machine with
+     a custome software stack on a single node. The
+     launch of a VM can be integrated with SLURM and
+     the VM launched can be configured to be able
+     to access a user Lustre based /nobackup1/ directory.
+     We plan to put this capability on all nodes.
+     
+(22) If users want to share example job scripts or 
+     other useful "getting started" material please 
+     feel free to email to engaging-admin@techsquare.com.
+     
+(23) Anyone should feel free to send comments and suggestions
+     to Chris (cnh@mit.edu). He will try and keep track
+     of them and address them where possible. 
+     
